@@ -1,6 +1,6 @@
 import json
 from django.shortcuts import render, redirect
-from django.http import HttpResponseNotFound, HttpResponseRedirect, HttpResponse, JsonResponse,
+from django.http import HttpResponseNotFound, HttpResponseRedirect, HttpResponse, JsonResponse
 from main.forms import ProductForm
 from django.urls import reverse
 from main.models import Product
